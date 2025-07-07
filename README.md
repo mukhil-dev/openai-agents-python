@@ -1,6 +1,10 @@
 
 ## OpenAI agents python demo SETUP
 
+git clone the openai-agents-python repo
+
+create a parent folder called openai_agent
+
 1. Set up your Python environment
  Using venv (traditional method)
 ```bash
@@ -13,7 +17,12 @@ source env/bin/activate
 ```bash
 pip install openai-agents
 ```
-## Hello world example
+## hello.py example file
+
+```bash
+touch hello.py
+open hello.py
+```
 
 ```python
 from agents import Agent, Runner
@@ -28,13 +37,20 @@ print(result.final_output)
 # Code within the code,
 # Functions calling themselves,
 # Infinite loop's dance.
+
+# Now click save before closing the file. 
 ```
 
 3.Get the OpenAI API key
-```
-Get the API Key from OpenAI Platform 
+```bash
+# Get the API Key from OpenAI Platform 
 export OPENAI_API_KEY="Enter_your_key_here"
 ```
 
 4. Test the agent
+```
+python3 hello.py
+```
+
+This throws me the insufficient quota error
 
