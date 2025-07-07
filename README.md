@@ -5,7 +5,7 @@
  Using venv (traditional method)
 ```bash
 python -m venv env
-source env/bin/activate  # On Windows: env\Scripts\activate
+source env/bin/activate  
 ```
 
 2. Install Agents SDK
