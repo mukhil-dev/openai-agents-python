@@ -31,9 +31,10 @@ print(result.final_output)
 ```
 
 3.Get the OpenAI API key
-
+```
 Get the API Key from OpenAI Platform 
 export OPENAI_API_KEY="Enter_your_key_here"
+```
 
 4. Test the agent
 
